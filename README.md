@@ -23,8 +23,7 @@ git checkout _your_commit_id_ -->
 example:
 cd ..
 
-command
-git submodule update
-
-explanation for git submodule update
-git submodule update command to update the submodule reference:
+4.commit the folder with your project
+ex:
+git add _commit_file_name_or_folder_
+git commit -m"_meesage_"
