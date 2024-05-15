@@ -8,6 +8,8 @@ git submodule add https://github.com/dilipannztech/lib.git
 example:
 cd path/to/submodule
 
+before take a pull please check that your in a main branch of a lib
+
 2.then pull
 
 command
@@ -24,17 +26,5 @@ cd ..
 command
 git submodule update
 
-explanation for - git submodule update
+explanation for git submodule update
 git submodule update command to update the submodule reference:
-
-----------x---------
-
-problem may be faced
-
-problem
-if it's not get pull its in commit branch
-
-solution
-checkout to the main
-ex:
-git checkout main
