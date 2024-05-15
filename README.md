@@ -13,8 +13,8 @@ cd path/to/submodule
 command
 git pull
 
-other ways of coping the code
-git checkout _your_commit_id_
+<!-- other ways of coping the code
+git checkout _your_commit_id_ -->
 
 3.navigate to the main folder
 
@@ -24,5 +24,17 @@ cd ..
 command
 git submodule update
 
-explanation for git submodule update
-Then, go back to the main repository and use the git submodule update command to update the submodule reference:
+explanation for - git submodule update
+git submodule update command to update the submodule reference:
+
+----------x---------
+
+problem may be faced
+
+problem
+if it's not get pull its in commit branch
+
+solution
+checkout to the main
+ex:
+git checkout main
