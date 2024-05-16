@@ -12,3 +12,4 @@ export function checkPassword(password, hashedPassword) {
     const hash = hashPassword(password);
     return hash === hashedPassword;
 }
+
